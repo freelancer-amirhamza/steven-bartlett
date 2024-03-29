@@ -80,7 +80,7 @@ const Navbar = () => {
       >
         <div
           onClick={() => setOpen(!open)}
-          className="btn flex items-center cursor-pointer text-[20px] font-bold hover:text-yellow-400 py-6 px-5 w-full justify-end "
+          className="btn flex items-center cursor-pointer text-[20px] lg:  font-bold hover:text-yellow-400 py-6 px-5 w-full justify-end "
         >
           <RxCross1 />
           {/* <span>close</span> */}

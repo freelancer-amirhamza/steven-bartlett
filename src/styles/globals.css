@@ -16,6 +16,45 @@
 
 body {
   color: var(--color-text);
-  background:var(--background)
+  background:var(--background);
+  box-sizing: inherit;
 }
 
+.hero-section{
+  background-position: 50% 100%;
+  background-size: cover;
+  background-attachment: scroll;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-position: 50% 100%;
+}
+
+
+
+ @media (max-width: 991px) { 
+  .hero-section{
+    background-size: 1100px auto;
+    min-height: 0vh;
+    /* height: 600px; */
+    width: 100%;
+    display: block;
+    background-position: 50% 100%;
+}
+  }
+  @media (max-width: 768px) { 
+    .hero-section{
+      /* background-image: url('https://stevenbartlett.com/wp-content/uploads/2021/12/steven-hero-banner-taller-desktop.jpg'); */
+      background-size: 1200px  auto;
+      /* background-size: cover; */
+      min-height: 0vh;
+      height: 90vh;
+      background-repeat: no-repeat;
+      background-position: 50% 100%;
+  }
+    }
+  
+  
+
+ @media (max-width: 640px) {
+  
+  }

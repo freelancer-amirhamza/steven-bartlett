@@ -18,7 +18,11 @@ module.exports = {
       },
       colors: {
         'bg-light': '#151B1F',
+        'text-light': '#363F4C'
       },
+      backgroundImage: {
+        'hero-pattern': "url('https://stevenbartlett.com/wp-content/uploads/2021/12/steven-hero-banner-taller-desktop.jpg')",
+      }
     },
   },
   plugins: [],

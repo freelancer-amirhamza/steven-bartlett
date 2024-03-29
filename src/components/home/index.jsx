@@ -1,8 +1,15 @@
 import React from 'react'
+import Hero from '../hero/Hero'
+import StoryCard from '../story/StoryCard'
+import Story from '../story/StoryCard'
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <>
+    <Hero/>
+    <Story/>
+    </>
+    
   )
 }
 
