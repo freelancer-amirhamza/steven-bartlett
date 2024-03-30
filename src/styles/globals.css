@@ -28,7 +28,10 @@ body {
   background-repeat: no-repeat;
   background-position: 50% 100%;
 }
-
+/* 
+.section-story .cards .card:hover .content{
+  display: flex;
+}  */
 
 
  @media (max-width: 991px) { 
@@ -55,6 +58,12 @@ body {
   
   
 
- @media (max-width: 640px) {
-  
+ @media (min-width: 768px) {
+  .section-story .cards .card  {
+    transition: 1s ease;
+  }
+  .section-story .cards .card:hover .content{
+    display: flex;
+   
+  } 
   }
